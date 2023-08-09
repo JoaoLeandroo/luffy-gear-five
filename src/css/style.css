@@ -105,10 +105,10 @@ body {
     right: -18px;
     font-size: 15px;
     font-weight: bold;
-    text-shadow: 2px 2px 2px #000000;
+    text-shadow: 2px 2px 2px var(--primaryBlack);
     cursor: pointer;
     background-color: red;
-    color: #fff;
+    color: var(--primaryWhite);
     text-align: center;
 }
 
