@@ -87,7 +87,7 @@ body {
     max-width: 700px;
     height: 95%;
     max-height: 400px;
-    background-color: red;
+    background-color: #000000e3;
     border-radius: 4px;
     position: relative;
     top: 50%;
@@ -96,15 +96,20 @@ body {
 }
 
 .modal-video .modal-close {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     border: none;
     position: absolute;
-    top: -10px;
-    right: -15px;
-    font-size: 18px;
+    top: -15px;
+    right: -18px;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000000;
     cursor: pointer;
+    background-color: red;
+    color: #fff;
+    text-align: center;
 }
 
 .modal-video .video-play-gear-five {
