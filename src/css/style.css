@@ -59,6 +59,23 @@ body {
     background-color: var(--secundaryBlue); 
     font-weight: 700;
     text-transform: uppercase;
+    animation: animationButton 3.5s infinite ease-in-out;
+    color: var(--primaryWhite);
+    text-shadow: 3px 3px 3px var(--primaryBlack);
+}
+
+@keyframes animationButton {
+    0% {
+        box-shadow: 0 0 0 0 transparent;
+    }
+    50% {
+        -webkit-box-shadow: -1px -2px 14px 10px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px -2px 14px 10px rgba(0,0,0,0.75);
+        box-shadow: -1px -2px 14px 10px rgba(0,0,0,0.75);
+    }
+    100% {
+        box-shadow: 0 0 0 0 transparent;
+    }
 }
 
 .main-center figure {
